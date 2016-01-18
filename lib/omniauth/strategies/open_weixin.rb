@@ -2,9 +2,9 @@ require "omniauth-oauth2"
 
 module OmniAuth
   module Strategies
-    class Wechat < OmniAuth::Strategies::OAuth2
+    class OpenWeixin < OmniAuth::Strategies::OAuth2
       # Give your strategy a name.
-      option :name, "wechat"
+      option :name, "open_weixin"
 
       # This is where you pass the options you would pass when
       # initializing your consumer from the OAuth gem.

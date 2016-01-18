@@ -2,10 +2,10 @@ version = File.read(File.expand_path('../VERSION', __FILE__)).strip
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'omniauth-wechat-oauth2'
+  s.name        = 'omniauth-openweixin-oauth2'
   s.version     = version
   s.summary     = 'Omniauth strategy for open.weixin.qq.com'
-  s.description = 'Using OAuth2 to authenticate wechat user when web resources being viewed within wechat(weixin) client.'
+  s.description = 'Using OAuth2 to authenticate weixin user when web resources being viewed within weixin(wechat) client.'
 
   s.files        = Dir['README.md', 'lib/**/*']
   s.require_path = 'lib'
